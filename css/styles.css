@@ -2,10 +2,10 @@
 body {
     margin: 0;
 
-    font-family: 'Poppins';
+    font-family: Poppins, Sans-serif;
     color: white;
 
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     background: #36549C url(/img/background.jpg) center center/cover no-repeat;
 }
 
@@ -21,34 +21,35 @@ body {
     text-align: center;
     margin-left: 15%;
     margin-right: 15%;
-    padding: 50px;
 }
 
 .header img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
     filter: drop-shadow(0px 5px 20px #1F1F1F);
 }
 
 /* --- NAVBAR --- */
 .navbar {
-    padding-bottom: 50px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
 
 li {
-    display: inline;
+    display: inline-block;
     background: white;
     border-radius: 40px;
-    padding: 25px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
 }
 
 a {
@@ -62,8 +63,8 @@ a {
 .content {
     text-align: justify;
     font-size: 18px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 50px;
     background: #339bcc;
     padding: 50px;
@@ -72,9 +73,10 @@ a {
 }
 
 .content h1 {
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 /* --- FOOTER --- */
@@ -82,12 +84,44 @@ a {
     margin-top: 50px;
     margin-bottom: 30px;
     padding: 20px;
-    text-align: center;
     background: #339bcc;
-    font-size: 25px;
     border-radius: 50px;
-    margin-left: 15%;
-    margin-right: 15%;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 20%;
+    margin-right: 20%;
     border: 5px solid rgb(146, 202, 255);
     box-shadow: 0px 5px 15px 1px #1F1F1F;
+}
+
+/*-----------------------*/
+/* --- @Media Query  --- */
+/*-----------------------*/
+
+/* --- Mobile Device --- */
+@media (max-width: 746px) {
+    .header {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .content {
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 15px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer {
+        font-size: 8px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0;
+    }
 }
