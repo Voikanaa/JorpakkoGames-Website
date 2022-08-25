@@ -5,7 +5,7 @@ body {
     font-family: Poppins, Sans-serif;
     color: white;
 
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(15px);
     background: #36549C url(/img/background.jpg) center center/cover no-repeat;
 }
 
@@ -82,7 +82,7 @@ a {
 /* --- FOOTER --- */
 .footer {
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding: 20px;
     background: #339bcc;
     border-radius: 50px;
