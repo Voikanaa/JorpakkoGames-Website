@@ -76,7 +76,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .content strong {
@@ -90,6 +90,14 @@ body {
 
 .content a:hover {
     color: rgb(145, 205, 255);
+}
+
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: 25%;
 }
 
 /* --- FOOTER --- */
