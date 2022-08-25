@@ -112,7 +112,7 @@ body {
 /*-----------------------*/
 
 /* --- Mobile Device --- */
-@media (max-width: 746px) {
+@media (max-width: 800px) {
     .header {
         margin-left: 3%;
         margin-right: 3%;
