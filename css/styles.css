@@ -79,6 +79,13 @@ body {
     font-size: 40px;
 }
 
+.content h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
 .content strong {
     font-size: 24px;
 }
@@ -94,9 +101,10 @@ body {
 
 .content img {
     display: block;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
+    border-radius: 25%;
     width: 25%;
 }
 
@@ -131,12 +139,21 @@ body {
         margin-left: 5%;
         margin-right: 5%;
         padding: 15px;
+        border-radius: 25px;
     }
 
     .content h1 {
         font-size: 30px;
         margin: 0;
         padding: 0;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content img {
+        width: 40%;
     }
 
     .footer {
