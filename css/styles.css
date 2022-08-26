@@ -61,7 +61,7 @@ body {
 
 /* --- CONTENT --- */
 .content {
-    text-align: justify;
+    text-align: left;
     font-size: 18px;
     margin-left: 20%;
     margin-right: 20%;
